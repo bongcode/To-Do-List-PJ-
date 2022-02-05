@@ -112,5 +112,3 @@ function filter(event){
 function randomIDgenerate(){
     return '_' + Math.random().toString(36).substr(2, 16);
 }
-
-console.log(randomIDgenerate)
